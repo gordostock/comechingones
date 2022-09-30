@@ -1,0 +1,384 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: 'virus_killerregular';
+    src: url('../assets/font/virus_killer-webfont.woff2') format('woff2'),
+         url('../assets/font/virus_killer-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+.cont {
+	width:100%;
+	overflow:hidden;
+	background: url('../assets/images/bg/bg-blanco.jpg') repeat;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+#todoslosmundosposibles {
+	background: url('../assets/images/bg/bg-v.jpg') repeat;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	background-attachment: fixed;
+}
+#todoslosmundosposibles .todoslosmundosposibles{
+	margin: 12px auto;
+	font-size: 14px;
+	color: #111;
+	text-align: center;
+	line-height: 14px;
+}
+#todoslosmundosposibles .todos{
+	font-size: 22px;
+	font-family: 'virus_killerregular';
+	color: #fff;
+}
+header {
+	background: url('../assets/images/bg/bg-a.jpg') repeat;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+header .logo-cont {
+	margin: 30px auto;
+	width: 320px;
+	height: 180px;
+	overflow: hidden;
+}
+.logo {
+
+	width: 320px;
+	height: 180px;
+	background-repeat: no-repeat;
+	animation: logoanim;
+	animation-duration: 3s;
+}
+.logo-vid {
+	width: 320px;
+	height: 180px;
+	overflow: hidden;
+}
+header .video-wrapper {
+  height: 180px;
+  overflow: hidden;
+  width: 320px;
+  z-index: -1;
+  text-align: center;
+}
+header video {
+  height: auto;
+  width: 320px;
+  min-height: 100%;
+}
+audio, canvas, video {
+  display: inline-block;
+}
+header .menu {
+	max-width: 1280px;
+	margin: 10px auto 20px auto;
+}
+header .btn {
+	background-color: #111;
+	padding: 10px;
+	border-radius: 30px;
+	width: auto;
+	display: none;
+	margin: 0px 10px;
+	box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+	transition: 0.1s ease-in;
+}
+header .btn:hover {
+	padding: 10px 15px 10px 10px;
+	font-size: 15px;
+}
+
+/* RESPONSIVE */
+
+header .btn-responsive {
+	background-color: #111;
+	padding: 10px;
+	border-radius: 30px;
+	width: auto;
+	display: inline-block;
+	margin: 0px 10px;
+	box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+	transition: 0.1s ease-in;
+}
+header .btn-responsive:hover {
+	padding: 10px 15px 10px 15px;
+	font-size: 15px;
+	background-color: #fff;
+}
+header .btn-responsive i {
+	font-size:24px;
+	margin: 0px 10px 0px 5px;
+}
+header .btn-responsive a {
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.1s ease-in;
+}
+header .btn-responsive a:hover {
+
+	font-weight: 800;
+}
+
+
+/**/
+header .btn-audio {
+	background: url('../assets/images/bg/bg-blanco.jpg');
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 30px;
+	width: auto;
+	display: inline-block;
+	margin: 0px 10px;
+	box-shadow: 0px 0px 0px 0px rgba(210, 42, 42, 1);
+	transition: 0.1s ease-in;
+}
+header .btn-audio:hover {
+	padding: 10px 20px 10px 10px;
+	box-shadow: 2px 2px 0px 0px rgba(210, 42, 42, 1);
+}
+header .btn i {
+	font-size:24px;
+	margin: 0px 10px 0px 5px;
+}
+header .btn-audio i {
+	font-size:32px;
+	margin: 0px 5px 0px 5px;
+}
+
+header .btn a {
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.1s ease-in;
+}
+header .btn a:hover {
+
+	font-weight: 800;
+}
+header .btn-audio button {
+	font-size: 18px;
+	letter-spacing: -1px;
+	font-weight: 800;
+	color: #111;
+	text-decoration: none;
+	border: none;
+	background: none;
+	line-height: -10px;
+	cursor: pointer;
+}
+header .btn-audio video {
+	display: none;
+}
+
+#video {
+	background: url('../assets/images/bg/bg-r.jpg') repeat;
+	width: 100%;
+	text-align: center;
+	background-attachment: fixed;
+}
+#video .cont {
+	max-width: 1280px;
+	margin: 0px auto;
+	padding: 64px;
+	background: url(../assets/images/bg/l1.png), url(../assets/images/bg/l2.png);
+	background-position: top left, bottom right;
+	background-repeat: no-repeat;
+}
+
+#video video{
+	max-width: 1080px;
+	width: auto;
+}
+
+#programas {
+	background: url('../assets/images/bg/bg-n.jpg') repeat;
+	width: 100%;
+	overflow: hidden;
+}
+#programas .limite {
+	max-width: 1280px;
+	margin: 50px auto;
+}
+
+.box {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: auto;    
+    transition: transform .5s ease-in;
+    margin: 0px auto;
+}
+
+.box img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+.horario {
+	width: 100%;
+	height: 100%;
+	background: #111;
+	position: absolute;
+	text-align: center;
+	opacity: 0;
+	transition: .5s ease-in;
+}
+.horario:hover {
+	opacity: 100%;
+	color:#fff;
+}
+.horario-linea {
+	background: url(../assets/images/bg/l1b.png), url(../assets/images/bg/l2b.png);
+	background-position: top left, bottom right;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	padding: 32px;
+}
+.horario .txt {
+	color: #fff;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 36px;
+	margin-top: 5%;
+}
+.imagen-programa {
+	background-size: cover;
+	background-position: center;
+	height: 180px;
+	width: 100%;
+	background-color: #fff;
+
+}
+#redes {
+	background: url('../assets/images/bg/bg-blanco.jpg') repeat;
+	width: 100%;
+	overflow: hidden;
+	color: #111;
+	text-align: center;
+	min-height: 500px;
+}
+.columnas {
+	max-width: 1080px;
+	width: 100%;
+	margin: 10px auto;
+	display: inline-block;
+	overflow: hidden;
+}
+.columna3 {
+	width: 25%;
+	margin: 10px 1%;
+	display: inline-block;
+}
+
+
+@media only screen and (max-width: 1280px) {
+	#video video{
+		max-width: 720px;
+		width: auto;
+	}
+}
+@media only screen and (max-width: 860px) {
+	.logo {
+
+	width: 240px;
+	height: 135px;
+	}
+	.logo-vid {
+		width: 240px;
+	height: 135px;
+	}
+	header .logo-cont {
+		margin: 30px auto;
+		width: 240px;
+	height: 135px;
+	}
+	header .video-wrapper {
+	  width: 240px;
+		height: 135px;
+	  z-index: -1;
+	  text-align: center;
+	}
+	header video {
+	  height: auto;
+	  width: 240px;
+	  min-height: 100%;
+	}
+	#video video{
+		max-width: 480px;
+		width: auto;
+	}
+	.horario .txt {
+		color: #fff;
+		font-weight: 800;
+		font-size: 24px;
+		line-height: 24px;
+		margin-top: 10%;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.logo {
+
+	width: 160px;
+	height: 90px;
+	}
+	.logo-vid {
+		width: 160px;
+		height: 90px;
+	}
+	header .logo-cont {
+		margin: 10px auto;
+		width: 160px;
+		height: 90px;
+	}
+	header .video-wrapper {
+	  height: 90px;
+	  width: 160px;
+	  z-index: -1;
+	  text-align: center;
+	}
+	header video {
+	  height: auto;
+	  width: 160px;
+	  min-height: 100%;
+	}
+	#video video{
+		max-width: 360px;
+		width: auto;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#video video{
+		max-width: 240px;
+		width: auto;
+	}
+}			
+@media only screen and (min-width: 900px) {
+	header .btn-responsive {
+		display: none;
+	}
+	header .btn {
+		display: inline-block;
+	}
+}
