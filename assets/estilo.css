@@ -118,7 +118,6 @@ header .btn-responsive {
 }
 header .btn-responsive:hover {
 	padding: 10px 15px 10px 15px;
-	font-size: 15px;
 	background-color: #fff;
 }
 header .btn-responsive i {
@@ -126,8 +125,6 @@ header .btn-responsive i {
 	margin: 0px 10px 0px 5px;
 }
 header .btn-responsive a {
-	font-size: 14px;
-	font-weight: 400;
 	text-decoration: none;
 	cursor: pointer;
 	transition: 0.1s ease-in;
@@ -363,10 +360,22 @@ header .btn-audio video {
 	  width: 160px;
 	  min-height: 100%;
 	}
+	header .btn-audio i {
+	font-size:22px;
+	margin: 0px 3px 0px 3px;
+	}
+	header .btn-responsive i {
+	font-size:16px;
+	margin: 0px 10px 0px 5px;
+	}
+	header .btn-audio button {
+	font-size: 14px;
+}
 	#video video{
 		max-width: 360px;
 		width: auto;
 	}
+
 }
 @media only screen and (max-width: 480px) {
 	#video video{
